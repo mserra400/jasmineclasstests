@@ -7,8 +7,6 @@ class ExampleClass{
     }
 }
 
-// classes.js
-
 export class Earthquake {
     constructor(intensity) {
         this.intensity = intensity;
@@ -19,6 +17,6 @@ export class Earthquake {
         else if (this.intensity < 5.5) return "Some damage";
         else if (this.intensity < 6.5) return "Serious damage: walls may crack or fall";
         else if (this.intensity < 7.5) return "Disaster: buildings may collapse";
-        else return "Catastrophe: most buildings and surroundings destroyed";
+        else return "Catastrophe: most buildings destroyed";
     }
 }

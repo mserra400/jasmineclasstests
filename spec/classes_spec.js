@@ -20,6 +20,6 @@ describe("Earthquake Damage Level", () => {
     });
 
     it("should return 'Catastrophe: most buildings and surroundings destroyed' for intensity 8", () => {
-        expect(new Earthquake(8).damageLevel()).toBe("Catastrophe: most buildings and surroundings destroyed");
+        expect(new Earthquake(8).damageLevel()).toBe("Catastrophe: most buildings destroyed");
     });
 });
