@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx jasmine"
+    "test": "node jasmine.mjs"
   },
   "author": "Rich Hildred",
   "license": "MIT",
